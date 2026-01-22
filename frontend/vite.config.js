@@ -4,6 +4,8 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  "homepage": "https://beebi-k.github.io/AI_Careers",
+
   resolve: {
     alias: {
       react: path.resolve('./node_modules/react'),
